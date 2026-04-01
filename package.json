@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic-agents/agent-tools",
+  "name": "@rishabjs03/agent-tools",
   "version": "1.0.0",
   "description": "A typed, extensible tool framework for AI agents. Define tools with Zod schemas, permission checking, concurrent execution, and lifecycle hooks.",
   "type": "module",

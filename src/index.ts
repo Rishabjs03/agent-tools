@@ -1,5 +1,5 @@
 /**
- * @anthropic-agents/agent-tools
+ * @rishabjs03/agent-tools
  *
  * A typed, extensible tool framework for AI agents.
  * Define tools with Zod schemas, permission checking, concurrent execution,

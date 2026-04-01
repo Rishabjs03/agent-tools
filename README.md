@@ -1,4 +1,4 @@
-# @anthropic-agents/agent-tools
+# @rishabjs03/agent-tools
 
 > A typed, extensible tool framework for AI agents.
 
@@ -17,13 +17,13 @@ Extracted from a production AI coding agent with 40+ tools. Define tools with Zo
 ## Install
 
 ```bash
-npm install @anthropic-agents/agent-tools
+npm install @rishabjs03/agent-tools
 ```
 
 ## Quick Start
 
 ```typescript
-import { buildTool, executeTools, z } from '@anthropic-agents/agent-tools';
+import { buildTool, executeTools, z } from '@rishabjs03/agent-tools';
 
 // Define a tool
 const readFile = buildTool({
@@ -74,7 +74,7 @@ const results = await executeTools(
 Add security, auditing, or custom logic around tool execution:
 
 ```typescript
-import { HookRegistry } from '@anthropic-agents/agent-tools';
+import { HookRegistry } from '@rishabjs03/agent-tools';
 
 const hooks = new HookRegistry();
 
@@ -103,7 +103,7 @@ hooks.registerPostHook({
 Find relevant tools from a large set:
 
 ```typescript
-import { searchTools } from '@anthropic-agents/agent-tools';
+import { searchTools } from '@rishabjs03/agent-tools';
 
 const matches = searchTools(allTools, 'file read');
 // Returns tools ranked by relevance to the query
