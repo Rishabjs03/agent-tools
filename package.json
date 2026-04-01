@@ -1,0 +1,14 @@
+{
+  "name": "@anthropic-agents/agent-tools",
+  "version": "1.0.0",
+  "description": "A typed, extensible tool framework for AI agents. Define tools with Zod schemas, permission checking, concurrent execution, and lifecycle hooks.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": { ".": { "import": "./dist/index.js", "types": "./dist/index.d.ts" } },
+  "scripts": { "build": "tsc", "dev": "tsc --watch" },
+  "keywords": ["ai", "agent", "tools", "function-calling", "llm", "zod", "orchestration"],
+  "license": "MIT",
+  "dependencies": { "zod": "^3.23.0" },
+  "devDependencies": { "typescript": "^5.4.0" }
+}
